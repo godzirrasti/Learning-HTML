@@ -22,13 +22,14 @@
 		</p>
 		<p>
 			<label for="email"><strong>Email:</strong></label>
-			<input type="text" name="email" placeholder="Email" required>
+			<input type="email" name="email" placeholder="Email" required>
 			<label for="password"><strong>Passowrd:</strong></label>
-			<input type="password" name="password" required>
+			<input type="password" name="password" minlength="5" maxlength="10" required>
 		</p>
 		<p>
 			<label for="birthday"><strong>Birthday:</strong></label>
-			<SELECT>
+			<select required>
+				<option></option>
 				<option value="month" disabled selected>Month</option>
 				<option value="January">January</option>
 				<option value="February">February</option>
@@ -42,8 +43,8 @@
 				<option value="October">October</option>
 				<option value="November">November</option>
 				<option value="December">December</option>
-			</SELECT>
-			<SELECT>
+			</select>
+			<SELECT required>
 				<option value="day" disabled selected>Day</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
