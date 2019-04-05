@@ -5,7 +5,8 @@ h1 {
 }
 li {
 	/*color:green;*/
-	color:#4B0082;
+	/*color:#4B0082;*/
+	color: rgba(0, 200, 100, 0.2);
 }
 h4 {
 	/*color:purple;*/
